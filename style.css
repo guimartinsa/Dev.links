@@ -12,6 +12,7 @@
     --surface-color-hover: rgba(255, 255, 255, 0.02);
     --highlight-color: rgba(255,255,255,0.2);
     --swtich-bg-url: url(./assetes/moon-star.svg);
+    --butoon-home: url(./assetes/home-icon.svg);
 }
 
 .light {
@@ -22,7 +23,7 @@
     --surface-color-hover: rgba(0 , 0 , 0 , 0.02);
     --highlight-color: rgba(0 , 0 , 0 , 0.1);
     --swtich-bg-url: url(./assetes/sun.svg);
-
+    --butoon-home: url(./assetes/home-icon.svg);
 }
 
 body{
@@ -183,4 +184,58 @@ footer {
     to{
         left: 0;
     }
+}
+
+/*nav projects*/
+
+#home a{
+    display: flex;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background:var(--butoon-home);
+}
+#home h1{
+    text-align: center;
+    padding: 10px;
+    color: rgb(127, 70, 168);
+}
+
+#conteudo{
+    text-align: center;
+}
+
+#conteudo ul{
+    display: inline-block;
+}
+
+#conteudo li{
+    float: left;
+    padding: 2px 5px;
+}
+
+#conteudo a{
+    width: 300px;
+    height: 300px;
+}
+
+/*Style do sobre mim*/
+#sobre-mim p{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center; 
+    max-width: 700px;
+    width: auto;
+    max-height: 500px;
+    height: auto;
+    border: 1px solid var(--stroke-color);
+    background: var(--surface-color);
+    backdrop-filter: blur(4px);
+    border-radius: 3vh;
+}
+
+#sobre-mim{
+    display: flex;
+    margin-top: 300px;
+    justify-content: center;
 }
