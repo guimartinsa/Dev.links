@@ -220,6 +220,10 @@ footer {
 }
 
 /*Style do sobre mim*/
+#principal{
+    position: relative;
+}
+
 #sobre-mim p{
     font-size: 25px;
     font-style: italic;
@@ -236,6 +240,5 @@ footer {
 
 #sobre-mim{
     display: flex;
-    margin-top: 300px;
     justify-content: center;
 }
